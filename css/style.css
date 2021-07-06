@@ -412,9 +412,12 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background: url("../img/close.svg");
   }
 
+  #close span {
+      background: url("../img/close.svg");
+  }
+  
   .header__toggle {
     width: 74px;
     height: 32px;
@@ -445,7 +448,10 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background: url("../img/burger.svg");
+  }
+  
+  #burger {
+      background: url("../img/burger.svg");
   }
 
   .nav {
