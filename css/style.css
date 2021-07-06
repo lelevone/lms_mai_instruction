@@ -412,6 +412,7 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    background: url("../img/close.svg");
   }
 
   .header__toggle {
@@ -434,7 +435,6 @@ html {
     display: block;
     width: 12px;
     height: 10px;
-    background: url("../img/burger.svg");
   }
 
   .header__toggle p {
@@ -445,6 +445,7 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    background: url("../img/burger.svg");
   }
 
   .nav {
